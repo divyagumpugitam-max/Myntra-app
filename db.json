@@ -1,0 +1,127 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Men's Casual T-Shirt",
+      "price": 499,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4occec6xxw95BUT5l-ad4YiZanf_aI4SHMQ&s",
+      "category": "Fashion",
+      "rating": 4.2,
+      "description": "Comfortable cotton t-shirt"
+    },
+    {
+      "id": 2,
+      "name": "Women's Floral Kurti",
+      "price": 899,
+      "image": "https://www.ethnicrajasthan.com/cdn/shop/files/APKULCCSPPLFL39901ER00M_4.jpg?v=1729935271&width=2048",
+      "category": "Fashion",
+      "rating": 4.6,
+      "description": "Beautiful printed kurti"
+    },
+    {
+      "id": 3,
+      "name": "Sneakers",
+      "price": 1299,
+      "image": "https://m.media-amazon.com/images/I/41AVAwlfWIL._SR290,290_AC_.jpg",
+      "category": "Footwear",
+      "rating": 4.4,
+      "description": "Comfortable everyday sneakers"
+    },
+    {
+      "id": 4,
+      "name": "Leather Wallet",
+      "price": 599,
+      "image": "https://urbanforest.co.in/cdn/shop/files/A7402041.jpg?v=1733571068",
+      "category": "Accessories",
+      "rating": 4.1,
+      "description": "Genuine leather wallet"
+    },
+    {
+      "id": 5,
+      "name": "Sports Shoes",
+      "price": 1599,
+      "image": "https://calcetto.in/cdn/shop/files/PIX_5747_f297e8ad-166f-4441-989b-b715e41b65ab.jpg?v=1744200136&width=3840",
+      "category": "Footwear",
+      "rating": 4.5,
+      "description": "Lightweight shoes for running"
+    },
+    {
+      "id": 6,
+      "name": "Denim Jeans",
+      "price": 1199,
+      "image": "https://m.media-amazon.com/images/I/81Sqh7EKwxL._AC_UY1100_.jpg",
+      "category": "Fashion",
+      "rating": 4.3,
+      "description": "Slim-fit denim jeans"
+    },
+    {
+      "id": 7,
+      "name": "Sunglasses",
+      "price": 699,
+      "image": "https://images.pexels.com/photos/46710/pexels-photo-46710.jpeg?cs=srgb&dl=pexels-nitin-creative-46710.jpg&fm=jpg",
+      "category": "Accessories",
+      "rating": 4,
+      "description": "UV protected sunglasses"
+    },
+    {
+      "id": 8,
+      "name": "Women Heels",
+      "price": 1299,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrnM1ud_EASTIT6H2pEWEuvtKtcP9Xhn7zg&s",
+      "category": "Footwear",
+      "rating": 4.2,
+      "description": "Stylish heels for parties"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Demo User",
+      "email": "demo@example.com",
+      "passwordHash": "",
+      "cart": []
+    },
+    {
+      "id": 2,
+      "name": "kjh",
+      "email": "nvbh",
+      "passwordHash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "cart": []
+    },
+    {
+      "id": 3,
+      "name": "Divya",
+      "email": "divyagumpu1@gmail.com",
+      "passwordHash": "37592aed9803cced831f4e13a28bfff2da153def17f7e2d3b838e9d70ceae0da",
+      "cart": []
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 2,
+      "items": [
+        {
+          "product": {
+            "id": 2,
+            "name": "Women's Floral Kurti",
+            "price": 899,
+            "image": "https://www.ethnicrajasthan.com/cdn/shop/files/APKULCCSPPLFL39901ER00M_4.jpg?v=1729935271&width=2048",
+            "category": "Fashion",
+            "rating": 4.6,
+            "description": "Beautiful printed kurti"
+          },
+          "quantity": 1
+        }
+      ],
+      "total": 899,
+      "shipping": {
+        "address": "hjbjv ",
+        "city": "vizsg",
+        "zip": "530002"
+      },
+      "createdAt": "2025-11-24T04:33:17.629Z",
+      "status": "paid"
+    }
+  ]
+}
